@@ -12,8 +12,8 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
 
 <body>
   <table
@@ -29,7 +29,7 @@
                   <p style="text-align:center">
                     <name>Xiaobao Wei</name>
                   </p>
-                  <p>I am a first-year dual PhD student at
+                  <p>I am a second-year dual PhD student at
                     <a href="http://www.is.cas.cn/">Institute of Software, Chinese Academy of Sciences</a> and <a
                       href="https://www.pku.edu.cn/">Peking University</a>,
                     supervised by <a href="https://people.ucas.ac.cn/~huichen">Prof. Hui Chen</a> from ISCAS, <a
@@ -43,10 +43,10 @@
                     any openings or have recommendations, I'd greatly appreciate your input.
                   </p> -->
                   <p>
-                    I serve as a reviewer for prestigious conferences and journals including CVPR, NeurIPS, ICME, and RA-L.
+                    I serve as a reviewer for prestigious conferences and journals including CVPR, ICLR, NeurIPS, ICME, AISTATS, RA-L, ICSVT.
                   </p>
                   <p>
-                    My areas of focus include neural field, 3D vision and human computer interaction.
+                    My areas of focus include neural field, 3D vision.
                   </p>
                   <p style="text-align:center">
                     <a href="mailto:weixiaobao0210@gmail.com">Email</a> &nbsp/&nbsp
@@ -74,8 +74,53 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="two" id="GazeGaussian" style="display: inline;">
+                  </div>
+                  <img src='images/GazeGaussian/pipeline.png' alt="GazeGaussian" width="320" height="150">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://ucwxb.github.io/GazeGaussian/">
+                    <papertitle>GazeGaussian: High-Fidelity Gaze Redirection with 3D Gaussian Splatting</papertitle>
+                  </a>
+                  <br>
+                  <strong>Xiaobao Wei</strong>, Peng Chen, Guangyu Li, <br> Ming Lu, Hui Chen, Feng Tian
+                  <br>
+                  <!-- <a href="https://arxiv.org/pdf/2405.20323">Paper</a>
+                  / -->
+                  <a href="https://ucwxb.github.io/GazeGaussian/">Code</a>
+                  <p></p>
+                  <p>
+                    We propose GazeGaussian, a high-fidelity gaze redirection method that uses a two-stream 3DGS model to represent the face and eye regions separately.
+                  </p>
+                </td>
+              </tr>
 
               
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="two" id="PLGS" style="display: inline;">
+                  </div>
+                  <img src='images/PLGS/pipeline.png' alt="PLGS" width="320" height="190">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/pdf/2410.17505">
+                    <papertitle>PLGS: Robust Panoptic Lifting with 3D Gaussian Splatting</papertitle>
+                  </a>
+                  <br>
+                  Yu Wang, <strong>Xiaobao Wei</strong>, Ming Lu, Guoliang Kang
+                  <br>
+                  <a href="https://arxiv.org/pdf/2410.17505">Paper</a>
+                  <p></p>
+                  <p>
+                    We propose a new method called PLGS that enables 3DGS to generate consistent panoptic segmentation masks from noisy 2D segmentation masks while maintaining superior efficiency compared to NeRF-based methods.
+                  </p>
+                </td>
+              </tr>
+
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="two" id="S3Gaussian" style="display: inline;">
@@ -84,18 +129,19 @@
                   </div>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="./">
-                    <papertitle>S<sup>3</sup>Gaussian: Self-Supervised Street Gaussians for Autonomous Driving</papertitle>
+                  <a href="https://github.com/nnanhuang/S3Gaussian">
+                    <papertitle>S<sup>3</sup>Gaussian: Self-Supervised Street Gaussians for Autonomous Driving
+                    </papertitle>
                   </a>
                   <br>
-                  Nan Huang, 
+                  Nan Huang,
                   <strong>Xiaobao Wei</strong>,
-                  Wenzhao Zheng, 
-                  Pengju An, 
-                  Ming Lu, 
-                  Wei Zhan, 
-                  Masayoshi Tomizuka, 
-                  Kurt Keutzer, 
+                  Wenzhao Zheng,
+                  Pengju An,
+                  Ming Lu,
+                  Wei Zhan,
+                  Masayoshi Tomizuka,
+                  Kurt Keutzer,
                   Shanghang Zhang,
                   <br>
                   <a href="https://arxiv.org/pdf/2405.20323">Paper</a>
@@ -103,11 +149,12 @@
                   <a href="https://github.com/nnanhuang/S3Gaussian">Code</a>
                   <p></p>
                   <p>
-                    We propose a self-supervised street Gaussian (S3Gaussian) method to decompose dynamic and static elements in driving scenes without costly annotations.
+                    We propose a self-supervised street Gaussian (S3Gaussian) method to decompose dynamic and static
+                    elements in driving scenes without costly annotations.
                   </p>
                 </td>
               </tr>
-              
+
               <!--
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -135,38 +182,39 @@
                 </td>
               </tr>
             -->
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="two" id="I-MedSAM_image" style="display: inline;">
-                </div>
-                <img src='images/I-MedSAM/I-MedSAM.png' alt="I-MedSAM" width="320" height="180">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://github.com/ucwxb/I-MedSAM">
-                  <papertitle>[ECCV 2024]I-MedSAM: Implicit Medical Image Segmentation with Segment Anything</papertitle>
-                </a>
-                <br>
-                <strong>Xiaobao Wei</strong>*,
-                Jiajun Cao*,
-                Yizhu Jin,
-                Ming Lu,
-                Guangyu Wang,
-                Shanghang Zhang,
-                <br>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="two" id="I-MedSAM_image" style="display: inline;">
+                  </div>
+                  <img src='images/I-MedSAM/I-MedSAM.png' alt="I-MedSAM" width="320" height="180">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/ucwxb/I-MedSAM">
+                    <papertitle>[ECCV 2024]I-MedSAM: Implicit Medical Image Segmentation with Segment Anything
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Xiaobao Wei</strong>*,
+                  Jiajun Cao*,
+                  Yizhu Jin,
+                  Ming Lu,
+                  Guangyu Wang,
+                  Shanghang Zhang,
+                  <br>
 
-                <!-- <a href="./I-MedSAM">Project</a>
+                  <!-- <a href="./I-MedSAM">Project</a>
   / -->
-                <a href="https://arxiv.org/abs/2311.17081">Paper</a>
-                /
-                <a href="https://github.com/ucwxb/I-MedSAM">Code</a>
-                <p></p>
-                <p>
-                  We propose I-MedSAM, which leverages the benefits of both continuous representations and SAM, to
-                  obtain better cross-domain ability and accurate boundary delineation.
-                </p>
-              </td>
-            </tr>
+                  <a href="https://arxiv.org/abs/2311.17081">Paper</a>
+                  /
+                  <a href="https://github.com/ucwxb/I-MedSAM">Code</a>
+                  <p></p>
+                  <p>
+                    We propose I-MedSAM, which leverages the benefits of both continuous representations and SAM, to
+                    obtain better cross-domain ability and accurate boundary delineation.
+                  </p>
+                </td>
+              </tr>
 
 
               <tr>
@@ -178,7 +226,8 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://github.com/BICLab/MFS-Seg">
-                    <papertitle>[Neural Networks 2024] Multi-scale full spike pattern for semantic segmentation</papertitle>
+                    <papertitle>[Neural Networks 2024] Multi-scale full spike pattern for semantic segmentation
+                    </papertitle>
                   </a>
                   <br>
                   Qiaoyi Su,
@@ -195,7 +244,9 @@
                   <a href="https://github.com/BICLab/MFS-Seg">Code</a>
                   <p></p>
                   <p>
-                    We propose the multi-scale and full spike segmentation network (MFS-Seg), which is based on the deep direct trained SNN and represents the first attempt to train a deep SNN with surrogate gradients for semantic segmentation.
+                    We propose the multi-scale and full spike segmentation network (MFS-Seg), which is based on the deep
+                    direct trained SNN and represents the first attempt to train a deep SNN with surrogate gradients for
+                    semantic segmentation.
                   </p>
                 </td>
               </tr>
@@ -405,24 +456,29 @@
             </tbody>
           </table>
 
-      <h2>Internships</h2>
-      <div style="display: flex; flex-wrap: wrap;">
-        <div style="flex: 0 0 33.333%; padding: 5px;"><i class="fas fa-calendar-alt"></i> <b>2023.07-2023.08</b><br><i class="fas fa-building"></i> Ai2Robotics 智平方科技<br><i class="fas fa-tasks"></i> NeRF for Driving Scenes</div>
-        <div style="flex: 0 0 33.333%; padding: 5px;"><i class="fas fa-calendar-alt"></i> <b>2024.01-2024.06</b><br><i class="fas fa-building"></i> AMD<br><i class="fas fa-tasks"></i> End-to-end Driving at Scale</div>
-        <div style="flex: 0 0 33.333%; padding: 5px;"><i class="fas fa-calendar-alt"></i> <b>2024.07-Now</b><br><i class="fas fa-building"></i> NIO 蔚来汽车<br><i class="fas fa-tasks"></i> 3DGS for Driving Scenes</div>
-      </div>
-  
-      <h2>Miscellaneous</h2>
-        </p>
-        <details>
-      <summary>Friends (click to expand, random order)</summary>
-          <ul>
-          <li><a href="https://chenvoid.github.io/">Peng Chen</a></li>
-          <li><a href="https://horaceyi.com/">Hongrui Yi</a></li>
-          <li><a href="https://harrison-1eo.github.io/">Haochen Li</a></li>
-          </ul>
-        </details>
-        </p>
+          <h2>Internships</h2>
+          <div style="display: flex; flex-wrap: wrap;">
+            <div style="flex: 0 0 33.333%; padding: 5px;"><i class="fas fa-calendar-alt"></i>
+              <b>2023.07-2023.08</b><br><i class="fas fa-building"></i> Ai2Robotics 智平方科技<br><i
+                class="fas fa-tasks"></i> NeRF for Driving Scenes</div>
+            <div style="flex: 0 0 33.333%; padding: 5px;"><i class="fas fa-calendar-alt"></i>
+              <b>2024.01-2024.06</b><br><i class="fas fa-building"></i> AMD<br><i class="fas fa-tasks"></i> End-to-end
+              Driving at Scale</div>
+            <div style="flex: 0 0 33.333%; padding: 5px;"><i class="fas fa-calendar-alt"></i> <b>2024.07-Now</b><br><i
+                class="fas fa-building"></i> NIO 蔚来汽车<br><i class="fas fa-tasks"></i> 3DGS for Driving Scenes</div>
+          </div>
+
+          <h2>Miscellaneous</h2>
+          </p>
+          <details>
+            <summary>Friends (click to expand, random order)</summary>
+            <ul>
+              <li><a href="https://chenvoid.github.io/">Peng Chen</a></li>
+              <li><a href="https://horaceyi.com/">Hongrui Yi</a></li>
+              <li><a href="https://harrison-1eo.github.io/">Haochen Li</a></li>
+            </ul>
+          </details>
+          </p>
 
 
 
@@ -448,14 +504,14 @@
 
   <script>
     var _hmt = _hmt || [];
-    (function() {
+    (function () {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?9a7b4078eded07c5cf9a87f4a81496da";
-      var s = document.getElementsByTagName("script")[0]; 
+      var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
-    </script>
-    
+  </script>
+
 
 </body>
 
